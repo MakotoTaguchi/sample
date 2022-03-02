@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="w`A.U|{l@gqnkzi2u2?b" x="12" y="97"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="hOwvkPW!.1QLG2F/Bq(c"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="w`A.U|{l@gqnkzi2u2?b" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_start_melody" id="vyno;GUipy:$v8Fc_^Nr"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="pGuusAZ!uJDU(6tTRF%!"><field name="melody">Melodies.Birthday</field></block></value><next><block type="device_show_leds" id="hOwvkPW!.1QLG2F/Bq(c"><field name="LEDS">`
         . . . . . 
         . # # # . 
         . . # . . 
         . . # . . 
         . . # . .
-        `</field></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="playMelody" id="0O2v$a/DpEjw/@gKqw}H" disabled="true" x="35" y="443"><value name="melody"><shadow type="melody_editor" id="N4`,qe_nSMa-~F(G`=Xl" disabled="true"><field name="melody">"C5 B A B F C E C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="DTAR|4Y4U+oxf@ju5?RI" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></xml>
